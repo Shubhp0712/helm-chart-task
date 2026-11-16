@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  # This sets the pull policy for images.
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "1.27.0"
+
+customMessage: "Hello! Welcome to Updated Demo copy of nginx with helm chart. Yessss! I done it."
